@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(images/patt.png);
+}
+.header {
+	padding: 25px 0;
+	background-color: rgba(255,255,255,0.75);
+}
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.col-md-3 {
+	width: 25%;
+}
+.col-md-6 {
+	width: 50%;
+}
+[class*="col-"] {
+	float: left;
+}
+.menu li {
+	width: 25%;
+	float: left;
+	border-left: 1px solid #2c71b8;
+	list-style-type: none;
+}
+.menu li:last-child {
+	border-right: 1px solid #2c71b8;
+}
+.menu a {
+	display: block;
+	height: 50px;
+	font-size: 21px;
+	text-align: center;
+	line-height: 50px;
+	color: #2c71b8;
+	font-weight: 300;
+	text-decoration: none;
+}
