@@ -67,8 +67,9 @@ li.dropdown {
 	font-weight: 300;
 	text-decoration: none;
 	background-color: #2c71b8;
-	width: 292px;
+	width: 298px;
 	border: 1px solid #2c71b8;
+	padding-left: 32px;
 }
 .dropdown-content a:hover {
 	background-color: white;
@@ -84,6 +85,7 @@ li.dropdown {
 	margin-left: 30px;
 	float: left;
 	display: block;
+	margin-top: 6px;
 }
 input[type="text"] {
 	border: none;
@@ -104,11 +106,14 @@ input[type="text"]::-webkit-input-placeholder {
 	color: #2c71b8; 
 	font-size: 21px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	padding-left: 15px;
 } 
 .cart {
 	float: right;
 	height: 40px;
 	width: 40px;
+	margin-top: 6px;
 }
 .cart-button {
 	height: 40px;
